@@ -19,4 +19,4 @@ class Supervisor:
     def protected(self):
         if self.__is_logged_in:
             return [1, 2, 3]
-        raise ValueError()
+        return None
